@@ -1,0 +1,21 @@
+/* Globales */
+body{
+    color: #ffffff;
+    background-color: #16458B;
+}
+h1, h2{
+    text-align: center;
+}
+#contenido {
+    margin-top: 50px;
+}
+.borrar-pendiente,
+.borrar-pendiente:hover{
+    float: right;
+    cursor: pointer;
+    color: #C0242F;
+    font-weight: bold;
+    background-color: #ffffff;
+    padding: 0px 7px;
+    border-radius: 50%;
+}
