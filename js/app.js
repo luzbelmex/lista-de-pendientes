@@ -1,5 +1,6 @@
 // Variables
 const listaPendientes = document.getElementById('lista-pendientes');
+const formulario = document.getElementById('formulario');
 
 // Eventos
 eventListeners();
@@ -31,11 +32,13 @@ function agregarPendiente(e){
     listaPendientes.appendChild(li);
     // añadir a localstorage
     agregarPendienteLocalStorage(pendiente);
-} 
+    // limpiar formulario al agregar el pendiente
+    formulario.reset();
+}
     // Eliminar Pendiente del DOM
 function borrarPendiente (e) {
     e.preventDefault();
-    
+
     if (e.target.className === 'borrar-pendiente') {
         e.target.parentElement.remove();
         borrarPendienteLocalStorage(e.target.parentElement.innerText);
