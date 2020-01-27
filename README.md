@@ -4,7 +4,7 @@ Pagina para apuntar pendientes/recados
 
 ## Descripcion General
 
-Paguina simple para apuntar pendientes, estos datos se almacenan en el _"Localstorage"_ 
+Pagina simple para apuntar pendientes, estos datos se almacenan en el _"Localstorage"_ 
 
 ## Lenguajes
 
