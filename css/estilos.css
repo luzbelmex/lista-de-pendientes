@@ -1,7 +1,7 @@
 /* Globales */
 body{
     color: #ffffff;
-    background-color: #16458B;
+    background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
 }
 h1, h2{
     text-align: center;
